@@ -1,0 +1,82 @@
+/*
+-----THEME DETAILS----
+file name:theme-1
+Date created: 19th september  2017
+created by: Deepak kumar singh
+*/
+
+/* global rules*/
+body{margin:0px;}
+h5{text-align: center; margin: 20px 0px;}
+.h3-heading{ text-align: center; padding:25px;}
+.h6-heading{text-align: center; font-weight: bold; margin:10px 0px 0px 5px;}
+#margin{margin: 15px 0px;}
+.card2{background-color: green; height: 50vh; margin:0px; padding:0px;}
+.card3{background-color: blue; height: 50vh;}
+#align{margin: 0px 35px; padding:16px;}
+.col-sm-6{margin-bottom: 10px;}
+.p-dec{margin:0px; padding:0px;color: #424242;letter-spacing:0.1em;text-align:center;margin-bottom: 60px;}
+
+
+/*header section*/
+.bg-1{background-image: url("images/cover.jpg"); height:100vh; background-position: center; max-width: 100%; background-repeat: no-repeat;background-size: cover;}
+
+/*center content*/
+.center{color: white; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);text-align: center;}
+.center p{margin:0px; padding:0px;color: #424242;letter-spacing:0.1em;text-align:center;margin: 40px auto;}
+
+/*2nd section*/
+.box-1{height:auto;width:auto;}
+.details p{margin-top:10px; padding:5px;color:#424242;letter-spacing:0.1em;text-align:center;}
+.card-1{background-image: url("images/fashion.jpg");margin: 0px auto;border-radius: 50%;height:200px;width:200px;background-position: center; background-repeat: no-repeat;background-size: cover;}
+.card-2{background-image: url("images/lifestyle.jpg");margin: 0px auto;border-radius: 50%;height:200px;width:200px;background-position: center; background-repeat: no-repeat;background-size: cover;}
+.card-3{background-image: url("images/nature.jpg");margin: 0px auto;border-radius: 50%;height:200px;width:200px;background-position: center; background-repeat: no-repeat;background-size: cover;}
+
+/*3rd section*/
+#aboutus-row-stng{margin-top: 50px; margin-left: 0; margin-right: 0;}
+.bg-2{background-color: whitesmoke;}
+.col-12{margin-top:0px;}
+.h3-3rd{margin-top:20px;margin-bottom: 5px;}
+.h6-3rd{margin-top: 20px;}
+#girl-1{background-image: url("images/girl-1.jpeg"); height:100vh; max-width: 100%;background-position: center; background-repeat: no-repeat;background-size: cover; border: none;}
+
+/*4th section*/
+.h3-4th{padding:25px; margin-bottom: 0px;}
+.p-4th{margin-top:0px;margin-bottom: 25px;padding:0px;text-align: center; font-style: italic;}
+.box-2{height: 300px;width: 300px;}
+.card-4{background-image: url("images/deepak.jpg");margin: 0px auto;height:260px;width:210px;background-position: top-center; background-repeat: no-repeat;background-size: cover;}
+.card-5{background-image: url("images/aryan.jpg");margin: 0px auto;height:260px;width:210px;background-position: center; background-repeat: no-repeat;background-size: cover;}
+.card-6{background-image: url("images/sunil.jpg");margin: 0px auto;height:260px;width:210px;background-position: center; background-repeat: no-repeat;background-size: cover;}
+
+/*5th section*/
+#th5-sec-stng{margin-top: 40px; margin-left: 0px; margin-right: 0px;}
+#girl-2{background-image: url("images/girl-2.jpg"); height:100vh; max-width: 100%;background-position: center; background-repeat: no-repeat;background-size: cover;}
+#margin-5a,#margin-5b{padding-right: 0px;padding-left: 0px;}
+.card-7{overflow: hidden;padding: 55px;border-bottom:1px solid #A5A5A5;border-right: 1px solid #A5A5A5;height:50vh; background-color:#E1E1E1;}
+.card-7 .icon{background-image: url("images/photography.png");margin:auto;height:80px;width:80px;background-repeat: no-repeat;background-position: center;background-size: cover;}
+.card-8{ overflow: hidden;padding: 55px;border-right: 1px solid #A5A5A5;height:50vh;background-color:#E1E1E1;}
+.card-8 .icon{background-image: url("images/movies.png");margin:10px auto;height:80px;width:80px;background-repeat: no-repeat;background-position: center;background-size: cover;}
+.card-9{overflow: hidden; padding: 55px;border-bottom: 1px solid #A5A5A5;height:50vh;background-color:#E1E1E1;}
+.card-9 .icon{background-image: url("images/branding.png");margin:auto;height:80px;width:80px;background-repeat: no-repeat;background-position: center;background-size: cover;}
+.card-10{overflow: hidden; padding: 55px;height:50vh;background-color:#E1E1E1;}
+.card-10 .icon{background-image: url("images/marketing.png");margin:10px auto;height:80px;width:80px;background-repeat: no-repeat;background-position: center;background-size: cover;}
+
+/*6th section*/
+#gallery-row{margin:3px;}
+.gallery-1{background-image: url("images/gallery-1.jpg");padding: 0px;margin: 0px auto;height:260px;width:260px;background-repeat: no-repeat;background-position: center;background-size: cover;}
+.gallery-2{background-image: url("images/gallery-2.jpg");padding: 0px;margin: 0px auto;height:260px;width:260px;background-repeat: no-repeat;background-position: center;background-size: cover;}
+.gallery-3{background-image: url("images/gallery-3.jpg");padding: 0px;margin: 0px auto;height:260px;width:260px;background-repeat: no-repeat;background-position: center;background-size: cover;}
+.gallery-4{background-image: url("images/gallery-4.jpg");padding: 0px;margin: 0px auto;height:260px;width:260px;background-repeat: no-repeat;background-position: center;background-size: cover;}
+.gallery-5{background-image: url("images/gallery-5.jpg");padding: 0px;margin: 0px auto;height:260px;width:260px;background-repeat: no-repeat;background-position: center;background-size: cover;}
+.gallery-6{background-image: url("images/gallery-6.jpg");padding: 0px;margin: 0px auto;height:260px;width:260px;background-repeat: no-repeat;background-position: center;background-size: cover;}
+.gallery-7{background-image: url("images/gallery-7.jpg");padding: 0px;margin: 0px auto;height:260px;width:260px;background-repeat: no-repeat;background-position: center;background-size: cover;}
+.gallery-8{background-image: url("images/gallery-8.jpg");padding: 0px;margin: 0px auto;height:260px;width:260px;background-repeat: no-repeat;background-position: center;background-size: cover;}
+.gallery-9{background-image: url("images/gallery-9.jpg");padding: 0px;margin: 0px auto;height:260px;width:260px;background-repeat: no-repeat;background-position: center;background-size: cover;}
+.gallery-10{background-image: url("images/gallery-10.jpg");padding: 0px;margin: 0px auto;height:260px;width:260px;background-repeat: no-repeat;background-position: center;background-size: cover;}
+.gallery-11{background-image: url("images/gallery-11.jpg");padding: 0px;margin: 0px auto;height:260px;width:260px;background-repeat: no-repeat;background-position: center;background-size: cover;}
+.gallery-12{background-image: url("images/gallery-12.jpg");padding: 0px;margin: 0px auto;height:260px;width:260px;background-repeat: no-repeat;background-position: center;background-size: cover;}
+
+/*button*/
+.button{ align-self: center;border: 1px solid black; padding: 10px 25px; border-radius: 3px;background-color: #232429;margin:10px auto; border: 1px solid #232429;}
+.row a {margin-bottom: 45px; margin-top: 20px; text-decoration: none; text-align: center; color:#FFFFFF;}
+.button:hover{border: 1px solid #232429; color: #232429; background-color: white;}

@@ -1,0 +1,41 @@
+/*
+File Name: pixelpel-contactUS.css
+Created on: 18/09/17
+Created by: Aryan Sahu
+*/
+/*--------------------------------------------------------------------
+Global-Section
+--------------------------------------------------------------------*/
+.box{margin-bottom: 10px;}
+input, textarea{width: 100%;border: 1px solid #868686;;  padding: 8px;  border-radius: 3px}
+p, h2,h3, h4,h1{color: white; cursor: default;}
+.sub-heading{color: #c7c6c6; font-size: 15px; }
+/*--------------------------------------------------------------------
+--NavBar--(Go to the file "pixelpel-NavFooter.css")
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+Header-Section
+--------------------------------------------------------------------*/
+.cover-photo{height: 340px; background-image: url("images/contect-cover.jpg"); background-position: center;}
+.cover-photo h1, .cover-photo p, .cover-photo-text{text-align: center;}
+#cover-cntnt{padding: 98px 0px}
+#cover-cntnt h1{letter-spacing: 3px;}
+/*--------------------------------------------------------------------
+Content-Section
+--------------------------------------------------------------------*/
+#form-box{background-color: #e0e0e0; padding-bottom: 5px; border-radius: 8px;}
+#form-submit-btn {background-color: #ffd24d; border: none; padding: 5px 20px; color: white; border-radius: 3px; cursor: pointer;}
+#form-submit-btn:hover{background-color: #f1c74b;}
+#cntnt{padding: 5%; background-color: white;}
+#box-1col h2,#box-1col p,#box-3col-b1 h3{text-align: center;}
+#box-3col-b1 h3{text-align: center; padding-top: 20px; padding-bottom: 40px;}
+#cntnt-col1-row1{margin-top: 30px; margin-bottom: 30px;}
+#col2-stng1-left {padding-right: 0px; padding-left: 0px;}
+#col3-stng1-right {padding-right: 0px; padding-left: 0px; }
+.media-body{margin-left: 10px;}
+.media-body p{color: #868686;}
+.media-body h6{color: #484848;}
+#box-3col-b1 h3{color: #484848;}
+/*--------------------------------------------------------------------
+Footer-Section (Go to the file "pixelpel-NavFooter.css")
+--------------------------------------------------------------------*/

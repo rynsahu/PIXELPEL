@@ -1,0 +1,84 @@
+/*
+File Name: pixelpel-gallery.css
+Created on: 27/09/17
+Created by: Aryan Sahu
+*/
+/*--------------------------------------------------------------------
+Global-Section
+--------------------------------------------------------------------*/
+body{background-color: #e6e6e6;}
+.image:hover{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+h3{text-align: center; border-bottom: 1px solid black; padding: 20px 0px; margin-bottom: 20px;}
+.heading{margin-bottom: 30px; letter-spacing: 2px;}
+.box{margin: 0px;}
+/*--------------------------------------------------------------------
+--NavBar--(Go to the file "pixelpel-NavFooter.css")
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+Header-Section
+--------------------------------------------------------------------*/
+.cover-photo{height: 340px; background-image: url("images/gallery-cover.jpg"); background-position:center; background-size:cover;}
+.cover-photo h1, .cover-photo p, .cover-photo-text{text-align: center;}
+#cover-cntnt{padding: 98px 0px}
+#cover-cntnt h1{letter-spacing: 5px; color: white;}
+#cover-cntnt p{color: white; font-size: 15px;}
+/*--------------------------------------------------------------------
+Content-Section
+--------------------------------------------------------------------*/
+/*--Grid 1--*/
+.container-fluid#cntnt1{padding: 3%; background-color: white; margin-bottom: 50px; }
+.cards{padding-top: 40px;}
+.image#col1-img1{height: 360px; background-image: url("images/img2.jpg");background-repeat: no-repeat ;background-size: cover; background-position: right center; margin-bottom: 15px;}
+.image#col1-img2{height: 400px; margin-bottom: 15px; background-image: url("images/img1.jpg"); background-size:cover; background-position: center;}
+.image#col1-img3{height: 360px; background-image: url("images/img3.jpg");background-repeat: no-repeat ;background-size: cover; background-position: center; margin-bottom: 15px;}
+.cards:hover{padding-left: 0px; padding-right: 0px;}
+.image#col1-img1:hover,.image#col1-img3:hover{margin-bottom: 0px; height: 375px;}
+.middle-card:hover{padding-left: 0px; padding-right: 0px;}
+.image#col1-img2:hover{margin-bottom: 0px; height: 415px;}
+/*--Grid 2--*/
+.container#cntnt2{padding-top: 30px; background-color: white; border-radius: 5px; padding: 32px; overflow: hidden;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+.image#col2-img1{height: 300px; background-image: url("images/img4.jpg");background-repeat: no-repeat ;background-size: cover; background-position: center; margin-bottom: 15px;}
+.image#col2-img2{height: 300px; background-image: url("images/img5.jpg");background-repeat: no-repeat ;background-size: cover; background-position: center; margin-bottom: 15px;}
+.image#col2-img3{height: 300px; background-image: url("images/img6.jpg");background-repeat: no-repeat ;background-size: cover; background-position: center; margin-bottom: 15px;}
+.image#col2-img4{height: 300px; background-image: url("images/img7.jpg");background-repeat: no-repeat ;background-size: cover; background-position: center; margin-bottom: 15px;}
+.image#col2-img5{height: 300px; background-image: url("images/img8.jpg");background-repeat: no-repeat ;background-size: cover; background-position: left center; margin-bottom: 15px;}
+.image#col2-img6{height: 300px; background-image: url("images/img9.jpg");background-repeat: no-repeat ;background-size: cover; background-position: center; margin-bottom: 15px;}
+/*--Grid 3--*/
+.container-fluid#cntnt3{margin-top: 50px; padding: 0px;}
+#cntnt3-inr .row{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)}
+.container#cntnt3-inr{margin-bottom: 40px;}
+.grid3-stng{padding: 0px; overflow: hidden;}
+.grid3-stng h3{border: none;}
+.col3-img{height: 200px;}
+#row3{overflow: hidden;}
+.image#col3-img1{background-image: url("images/img10.jpg");background-repeat: no-repeat ;background-size: cover; background-position: center;}
+.image#col3-img2{background-image: url("images/img11.jpg");background-repeat: no-repeat ;background-size: cover; background-position: center;}
+.image#col3-img3{background-image: url("images/img12.jpg");background-repeat: no-repeat ;background-size: cover; background-position: center;}
+.image#col3-img4{background-image: url("images/img13.jpg");background-repeat: no-repeat ;background-size: cover; background-position: center;}
+.image#col3-img5{background-image: url("images/img14.jpg");background-repeat: no-repeat ;background-size: cover; background-position: center;}
+.image#col3-img6{background-image: url("images/img15.jpg");background-repeat: no-repeat ;background-size: cover; background-position: center;}
+.image#col3-img7{background-image: url("images/img16.jpg");background-repeat: no-repeat ;background-size: cover; background-position: center;}
+.image#col3-img8{background-image: url("images/img17.jpg");background-repeat: no-repeat ;background-size: cover; background-position: center;}
+.image#col3-img9{background-image: url("images/img18.jpg");background-repeat: no-repeat ;background-size: cover; background-position: center;}
+.image#col3-img10{background-image: url("images/img19.jpg");background-repeat: no-repeat ;background-size: cover; background-position: center;}
+.image#col3-img11{background-image: url("images/img20.jpg");background-repeat: no-repeat ;background-size: cover; background-position: top center;}
+.image#col3-img12{background-image: url("images/img21.jpg");background-repeat: no-repeat ;background-size: cover; background-position: center;}
+.box#col3-img13{background-image: url("images/img22.jpg");background-repeat: no-repeat ;background-size: cover; background-position: center;}
+#col3-img13 h3{padding: 100px 0px; color: white; letter-spacing: 2px; font-size: 35px;}
+.image#col3-inr-img1{height: 200px; background-image: url("images/img23.jpg");background-repeat: no-repeat ;background-size: cover; background-position: center;}
+.image#col3-inr-img2{height: 200px; background-image: url("images/img24.jpeg");background-repeat: no-repeat ;background-size: cover; background-position: center;}
+.image#col3-inr-img3{height: 200px; background-image: url("images/img25.jpg");background-repeat: no-repeat ;background-size: cover; background-position: center;}
+.image#col3-inr-img4{height: 200px; background-image: url("images/img26.jpg");background-repeat: no-repeat ;background-size: cover; background-position: center;}
+.image#col3-inr-img5{height: 200px; background-image: url("images/img27.jpg");background-repeat: no-repeat ;background-size: cover; background-position: center;}
+.image#col3-inr-img6{height: 200px; background-image: url("images/img28.jpg");background-repeat: no-repeat ;background-size: cover; background-position: center;}
+.image#col3-inr-img7{height: 200px; background-image: url("images/img29.jpg");background-repeat: no-repeat ;background-size: cover; background-position: center;}
+.image#col3-inr-img8{height: 200px; background-image: url("images/img30.jpg");background-repeat: no-repeat ;background-size: cover; background-position: center;}
+.image#col3-inr-img9{height: 200px; background-image: url("images/img31.jpg");background-repeat: no-repeat ;background-size: cover; background-position: center;}
+.image#col3-inr-img10{height: 200px; background-image: url("images/img32.jpg");background-repeat: no-repeat ;background-size: cover; background-position: center;}
+.image#col3-inr-img11{height: 200px; background-image: url("images/img33.jpg");background-repeat: no-repeat ;background-size: cover; background-position: center;}
+.image#col3-inr-img12{height: 200px; background-image: url("images/img34.jpg");background-repeat: no-repeat ;background-size: cover; background-position: center;}
+.image#col3-inr-img13{height: 200px; background-image: url("images/img35.jpg");background-repeat: no-repeat ;background-size: cover; background-position: center;}
+/*--------------------------------------------------------------------
+Footer-Section (Go to the file "pixelpel-NavFooter.css")
+--------------------------------------------------------------------*/
+.container-fluid#footer-container{padding-top: 0px;}

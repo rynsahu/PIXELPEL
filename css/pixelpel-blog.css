@@ -1,0 +1,67 @@
+/*
+File Name: pixelpel-blog.css
+Created on: 28/09/17
+Created by: Aryan Sahu
+*/
+/*--------------------------------------------------------------------
+Global-Section
+--------------------------------------------------------------------*/
+body{background-color: #515254}
+a{text-decoration: none;}
+p{color: #515254;}
+.container-fluid#cntnt{padding: 4%; padding-bottom: 0;}
+.row-stng {margin-left: 0px; margin-right: 0px;}
+@media screen and (min-width: 415px){.col-L-stng{padding-left: 0px;} .col-R-stng{padding-right: 0px;}}
+.image:hover{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+/*--------------------------------------------------------------------
+*********************************--NavBar--**************************
+--------------------------------------------------------------------*/
+#navbar-menu{margin: 0px; padding-left: 20px; padding-right: 20px; border: none; background-color: #232429;}
+/*--------------------------------------------------------------------
+Header-Section
+--------------------------------------------------------------------*/
+.boxStng1{padding-left: 0px; padding-right: 0px; overflow: hidden; border-radius: 5px 0 0 5px;}
+.boxStng2{padding-left: 0px; padding-right: 0px; overflow: hidden; border-radius: 0 5px 5px 0;}
+.header-image{height: 600PX; background-color: gray; background-image: url("blogHeaderImage.jpg");background-position: center; background-size: }
+#header-text h1,#header-text p{color: white; text-align: center;;}
+#header-text{padding: 207px 0px;}
+.comment-box{height: 600PX; background-color: white; overflow: scroll;}
+.story-box{border-bottom: 1px solid #bdbdbd; padding: 10px;}
+#storyBox h5{letter-spacing: 2px;border-bottom: 1px solid #bdbdbd; text-align: center; padding: 20px 0px;}
+/*--------------------------------------------------------------------
+Content-Section
+--------------------------------------------------------------------*/
+/* Row-1 */
+.card1{height: 300px; margin-bottom: 20px; border-radius: 3px; background-color: gray;}
+.card2{height: 300px; margin-bottom: 20px; border-radius: 3px; background-color: gray;}
+.card2-c1{height: 300px; margin-bottom: 20px; border-radius: 3px; background-color:gray;}
+.card3{height: 620px; margin-bottom: 20px; border-radius: 3px; background-color: gray;}
+#image-container1{margin-top: 80px;}
+/* Row-2*/
+.row2-box1-card1{height: 300px; margin-bottom: 20px; border-radius: 3px; background-color: gray;}
+.row2-box1-card3{height: 620px; margin-bottom: 20px; border-radius: 3px; background-color: gray;}
+.row2-box2{height: 300px; margin-bottom: 20px; border-radius: 3px; background-color: gray;}
+.row2-box3{height: 300px; margin-bottom: 20px; border-radius: 3px; background-color: gray;}
+.row2-box4-card3{height: 620px; margin-bottom: 20px; border-radius: 3px; background-color: gray;}
+.row2-box4-card4{height: 300px; margin-bottom: 20px; border-radius: 3px; background-color: gray;}
+/* Body Cover Image */
+#cover-img{ padding: 70px; border-radius: 5px; margin-top: 40px;background-image: url("images/blog-cover-eyes.jpg"); background-position: top center;background-size:cover; }
+#cover-img-text{margin: 0px; color: white; text-align: center; font-size: 20px; font-weight: 500; letter-spacing: 2px; word-spacing: 1px; border-top: 1px solid white; border-bottom: 1px solid white; padding: 10px 0px;}
+/* Last Box */
+.last-stng{padding-left: 0px; padding-right: 0px;}
+.last-box1,.last-box2{margin-bottom: 20px;}
+.heading-box{margin-top: 40px; margin-bottom: 20px;}
+.heading-box h3{margin: 0px; color: white;text-align: center; padding: 10px;}
+.image#last-box-image{height: 450px; background-image: url("F:/workspace/webSites/2-task-photography/Master-Package-Targaryen/images/blog-about.jpg");border-radius: 5px 5px 0 0; background-position: center; background-size: cover;}
+#box-text{ background-color: white;border-radius: 0 0 5px 5px;}
+#box-text{padding: 30px;}
+#last-img1{height: 400px; background-image: url("images/aryan.jpg"); background-position: center; background-size: cover;border-radius: 5px 5px 0 0;}
+#last-img2{height: 400px; background-image: url("images/deepak.jpg"); background-position: center; background-size: cover;border-radius: 5px 5px 0 0;}
+#last-img3{height: 400px; background-image: url("images/sunil.jpg"); background-position: center; background-size: cover;border-radius: 5px 5px 0 0;}
+.last-box-imgs{margin-bottom: 20px;}
+.last-img-text{background-color: white; border-radius: 0 0 5px 5px; padding: 25px;}
+.last-img-text p{margin: 0px;}
+/*--------------------------------------------------------------------
+Footer-Section
+--------------------------------------------------------------------*/
+.footer-section{margin-top: 80px;}
